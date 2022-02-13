@@ -20,6 +20,9 @@ sed -i '$a src-git kenzo https://github.com/kenzok8/small-package' feeds.conf.de
 #git clone https://github.com/spysir/OpenAppFilter.git package/luci-app-oaf
 #svn co https://github.com/281677160/openwrt-package/trunk/luci-app-adguardhome package/luci-app-adguardhome
 
+rm -rf feeds/packages/libs/libcap
+svn co https://github.com/openwrt/packages/trunk/libs/libcap feeds/packages/libs/libcap
+
 git clone https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
 git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
 git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/luci-app-autotimeset
