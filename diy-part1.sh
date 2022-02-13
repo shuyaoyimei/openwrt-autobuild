@@ -12,9 +12,9 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/weweyes/openwrt-package' feeds.conf.default
-#sed -i '$a src-git kenzo https://github.com/weweyes/openwrt-packages' feeds.conf.default
+sed -i '$a src-git kenzo https://github.com/kenzok8/small-package' feeds.conf.default
 #sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-package' feeds.conf.default
-sed -i '$a src-git Boos4721 https://github.com/Boos4721/OpenWrt-Packages' feeds.conf.default
+#sed -i '$a src-git Boos4721 https://github.com/Boos4721/OpenWrt-Packages' feeds.conf.default
 
 
 #git clone https://github.com/spysir/OpenAppFilter.git package/luci-app-oaf
