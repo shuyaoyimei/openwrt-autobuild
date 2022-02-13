@@ -21,7 +21,7 @@ sed -i '$a src-git kenzo https://github.com/kenzok8/small-package' feeds.conf.de
 #svn co https://github.com/281677160/openwrt-package/trunk/luci-app-adguardhome package/luci-app-adguardhome
 
 rm -rf feeds/packages/libs/libcap
-svn co https://github.com/openwrt/packages/trunk/libs/libcap feeds/packages/libs/libcap
+svn co https://github.com/openwrt/packages/branches/openwrt-21.02/libs/libcap/ feeds/packages/libs/libcap
 
 git clone https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
 git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
