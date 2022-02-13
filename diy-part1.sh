@@ -13,6 +13,9 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/weweyes/openwrt-package' feeds.conf.default
 #sed -i '$a src-git kenzo https://github.com/weweyes/openwrt-packages' feeds.conf.default
+#sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-package' feeds.conf.default
+sed -i '$a src-git Boos4721 https://github.com/Boos4721/OpenWrt-Packages' feeds.conf.default
+
 
 #git clone https://github.com/spysir/OpenAppFilter.git package/luci-app-oaf
 #svn co https://github.com/281677160/openwrt-package/trunk/luci-app-adguardhome package/luci-app-adguardhome
@@ -23,4 +26,5 @@ git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/luci-app-
 git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
 
 git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
-git clone https://github.com/spysir/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
+git clone https://github.com/xiaorouji/openwrt-passwall.git
+git clone https://github.com/kenzok8/small package/small
