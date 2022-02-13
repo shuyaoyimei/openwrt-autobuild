@@ -20,7 +20,7 @@ sed -i '$a src-git Boos4721 https://github.com/Boos4721/OpenWrt-Packages' feeds.
 #git clone https://github.com/spysir/OpenAppFilter.git package/luci-app-oaf
 #svn co https://github.com/281677160/openwrt-package/trunk/luci-app-adguardhome package/luci-app-adguardhome
 
-git clone https://github.com/spysir/luci-theme-opentopd-backup package/luci-theme-opentopd
+git clone https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
 git clone https://github.com/vernesong/OpenClash package/luci-app-openclash
 git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/luci-app-autotimeset
 git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
@@ -28,3 +28,4 @@ git clone https://github.com/destan19/OpenAppFilter.git package/luci-app-oaf
 git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
 git clone https://github.com/xiaorouji/openwrt-passwall.git
 git clone https://github.com/kenzok8/small package/small
+git clone https://github.com/1wrt/luci-app-ikoolproxy.git
